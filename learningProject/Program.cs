@@ -6,7 +6,21 @@ namespace learningProject
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine("Learnig Loops Here");
+            Console.WriteLine("Enter your input here :");
+
+            int input = Convert.ToInt32(Console.ReadLine());
+            for(int i=0; i<=input;i++)
+            {
+                if(i%3 ==0)
+                {
+                    Console.WriteLine('*');
+                }
+                else
+                {
+                    Console.WriteLine(i);
+                }
+
+            }
         }
     }
 }
